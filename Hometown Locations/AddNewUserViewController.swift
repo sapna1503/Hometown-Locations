@@ -73,6 +73,13 @@ class AddNewUserViewController: UIViewController {
             destination?.dataDictionary = dataDictionary
         }
     }
+  
+    
+    @IBAction func backToHomeView(_ sender: Any) {
+        performSegue(withIdentifier: "createNewUserToHomeSeague", sender: self)
+    }
+    
+    
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()

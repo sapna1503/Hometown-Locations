@@ -22,6 +22,8 @@ class MapViewController: UIViewController, CLLocationManagerDelegate {
     @IBOutlet weak var mapView: MKMapView!
 
     @IBAction func addPinpoint(_ sender: UILongPressGestureRecognizer) {
+        let existingAnnotations = self.mapView.annotations
+        self.mapView.removeAnnotations(existingAnnotations)
         let location = sender.location(in: self.mapView)
         let locCoord = self.mapView.convert(location, toCoordinateFrom: self.mapView)
         let annotation = MKPointAnnotation()

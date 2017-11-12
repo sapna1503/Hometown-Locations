@@ -34,6 +34,14 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>Hometown Locations</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>Hometown Locations</string>
+	<key>NSLocationUsageDescription</key>
+	<string>Hometown Locations</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Hometown Locations</string>
 	<key>UISupportedInterfaceOrientations~ipad</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
